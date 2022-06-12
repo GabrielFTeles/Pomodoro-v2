@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/67aa33abf6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="config-content">
+                    <select name="option-to-change" id="option-to-change">
+                        <option value="pomodoro">Pomodoro</option>
+                        <option value="shortBreak">Short Break</option>
+                        <option value="longBreak">Long Break</option>
+                    </select>
+                    <input type="number" name="new-minutes" id="new-minutes" placeholder="Minutes (Max.999)">
+                    <button id="sent-button">ENTER</button>
+                </div>
+
+                <button id="settings-button"><i class="fa-solid fa-gear"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="timer-section">
+            <div class="container">
+                <div class="timer-content">
+                    <div class="options">
+                        <span class="active">Pomodoro</span>
+                        <span>Short Break</span>
+                        <span>Long Break</span>
+                    </div>
+
+                    <div class="time">
+                        <span id="time-left">25:00</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button id="start-button" class="main-button">START</button>
+                        <button id="stop-button" class="main-button hide">STOP</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./src/js/index.js" type="module"></script>
+</html>
