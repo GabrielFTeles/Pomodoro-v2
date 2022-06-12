@@ -13,9 +13,6 @@ import {
 } from './elements.js'
 
 import {
-  pomodoroMinutes,
-  shortBreakMinutes,
-  longBreakMinutes,
   changeSettings
 } from './timer-settings.js'
 
