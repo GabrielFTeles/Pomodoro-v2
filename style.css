@@ -79,13 +79,17 @@ button {
   top: -1rem; right: 0;
 }
 
-.checkbox {
+.theme-switcher-button {
   opacity: 0;
   position: absolute;
 }
 
-.checkbox:focus + .label {
+.theme-switcher-button:focus + .label {
   outline: 2px solid white;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(2.4rem);
 }
 
 .label {
@@ -116,10 +120,6 @@ button {
   width: 2rem;
 
   transition: 0.4s;
-}
-
-.checkbox:checked + .label .ball {
-  transform: translateX(2.4rem);
 }
 
 .fa-moon {
