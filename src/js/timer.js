@@ -54,7 +54,6 @@ export default ({sounds}) => {
 
     if (seconds < 0) {
       minutes--;
-
       seconds = 59;
     }
 

@@ -47,9 +47,7 @@ export default ({
     }
 
     timer.pause();
-
     changeSettings(`${option}`, minutes);
-    
     timer.updateOptionMinutes(actualActive)
   })
 
