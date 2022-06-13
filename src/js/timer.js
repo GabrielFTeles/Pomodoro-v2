@@ -98,7 +98,9 @@ export default ({sounds}) => {
     option.classList.add('active');
 
     changeActualActive(option);
-    updateOptionMinutes(option)
+    updateOptionMinutes(option);
+
+    title.textContent = 'Pomodoro'
   }
 
   function updateOptionMinutes(option) {

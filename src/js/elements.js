@@ -1,4 +1,5 @@
 const title                = document.querySelector('title');
+const themeSwitcher        = document.querySelector('.checkbox');
 const settings             = document.querySelector('.config-content');
 const settingsBtn          = document.querySelector('#settings-button');
 const sentSettsBtn         = document.querySelector('#sent-button');
@@ -19,6 +20,7 @@ function changeActualActive(option) {
 
 export {
   title,
+  themeSwitcher,
   settings,
   settingsBtn,
   sentSettsBtn,

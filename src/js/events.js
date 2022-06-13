@@ -1,5 +1,6 @@
 import { 
   settings,
+  themeSwitcher,
   settingsBtn,
   sentSettsBtn,
   selectOptionToChange,
@@ -20,6 +21,10 @@ export default ({
   timer,
   sounds
 }) => {
+
+  themeSwitcher.addEventListener('change', () => {
+    document.body.classList.toggle('light-theme')
+  })
 
   startButton.addEventListener('click', () => {
     sounds.pressedButton();
