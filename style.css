@@ -89,7 +89,7 @@ button {
   outline: 2px solid white;
 }
 
-.checkbox:checked + .label .ball {
+.theme-switcher-button:checked + .label .ball {
   transform: translateX(2.4rem);
 }
 
