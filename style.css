@@ -10,10 +10,10 @@
 
   --theme-button-bg: hsl(0, 0%, 7%);
 
-  --active-color: hsl(47, 87%, 66%);
+  --active-color: var(--primary-color);
 
   --sent-button-color: hsl(240, 17%, 12%);
-  --sent-button-bg: hsl(47, 87%, 66%);
+  --sent-button-bg: var(--primary-color);
 
   --timer-font-size: 13.5rem;
   --timer-font-color: white;
@@ -22,7 +22,7 @@
 }
 
 .light-theme {
-  --page-bg: hsl(47, 87%, 66%);
+  --page-bg: var(--primary-color);
   --timer-bg: hsla(0, 0%, 100%, 0.274);
 
   --primary-color: hsl(47, 87%, 66%);
@@ -130,8 +130,6 @@ button {
 .fa-sun {
 	color: #f39c12;
 }
-
-
 
 
 

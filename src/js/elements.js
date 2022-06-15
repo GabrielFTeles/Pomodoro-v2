@@ -12,7 +12,7 @@ const pomodoro             = document.querySelector('.options span:nth-child(1)'
 const shortBreak           = document.querySelector('.options span:nth-child(2)');
 const longBreak            = document.querySelector('.options span:nth-child(3)');
 
-let actualActive   = document.querySelector('.active');
+let actualActive = document.querySelector('.active');
 
 function changeActualActive(option) {
   actualActive = option;
